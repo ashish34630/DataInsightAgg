@@ -1,0 +1,107 @@
+<svg version="1.1" baseProfile="full" width="499.0" height="520.0" viewbox="0 0 499 520" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+	<desc >#background: #FFFFFF
+	[Order|Order ID: string;Customer ID: string;Product ID: string;Order Date: string;Ship Date: string;Quantity: int;Discount: double;Price: string;Profit: double;Row ID: long;Ship Mode: string]
+	[Customer|Customer ID: string;Customer Name: string;email: string;phone: string;address: string;Segment: string;Country: string;City: string;State: string;Postal Code: string;Region: string]
+	[Product|Product ID: string;Category: string;Sub-Category: string;Product Name: string;State: string;Price per product: string]
+	
+	[Order] * -&gt; 1 [Customer]
+	[Order] * -&gt; 1 [Product]</desc>
+	<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+		<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+			<g stroke="transparent" fill="#FFFFFF">
+				<rect x="0.0" y="0.0" height="520.0" width="499.0" stroke="none"></rect>
+			</g>
+			<g transform="translate(8, 8)" fill="#33322E">
+				<g transform="translate(20, 20)" fill="#33322E" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+					<text x="143.3" y="213.7" stroke="none">*</text>
+					<text x="80.5" y="244.0" stroke="none">1</text>
+					<path d="M135.3 193.7 L98.5 232 L98.5 245.33333333333334 L98.5 245.3 " fill="none"></path>
+					<path d="M93.2 238.7 L98.5 245.3 L103.8 238.7 L98.5 252.0 Z"></path>
+					<text x="288.3" y="213.7" stroke="none">*</text>
+					<text x="348.0" y="281.5" stroke="none">1</text>
+					<path d="M303.3 193.7 L340 232 L340 282.8333333333333 L340.0 282.8 " fill="none"></path>
+					<path d="M334.7 276.2 L340.0 282.8 L345.3 276.2 L340.0 289.5 Z"></path>
+					<g data-name="Order">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Order">
+							<rect x="135.3" y="0.0" height="212.0" width="168.0" data-name="Order"></rect>
+							<path d="M135.3 31.0 L303.3 31.0" fill="none" data-name="Order"></path>
+						</g>
+						<g transform="translate(135.25, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Order">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Order">
+								<text x="76.0" y="13.5" stroke="none" text-anchor="middle" data-name="Order">Order</text>
+								
+							</g>
+						</g>
+						<g transform="translate(135.25, 31)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Order">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Order">
+								<text x="0.0" y="13.5" stroke="none" data-name="Order">Order ID: string</text>
+								<text x="0.0" y="28.5" stroke="none" data-name="Order">Customer ID: string</text>
+								<text x="0.0" y="43.5" stroke="none" data-name="Order">Product ID: string</text>
+								<text x="0.0" y="58.5" stroke="none" data-name="Order">Order Date: string</text>
+								<text x="0.0" y="73.5" stroke="none" data-name="Order">Ship Date: string</text>
+								<text x="0.0" y="88.5" stroke="none" data-name="Order">Quantity: int</text>
+								<text x="0.0" y="103.5" stroke="none" data-name="Order">Discount: double</text>
+								<text x="0.0" y="118.5" stroke="none" data-name="Order">Price: string</text>
+								<text x="0.0" y="133.5" stroke="none" data-name="Order">Profit: double</text>
+								<text x="0.0" y="148.5" stroke="none" data-name="Order">Row ID: long</text>
+								<text x="0.0" y="163.5" stroke="none" data-name="Order">Ship Mode: string</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Customer">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Customer">
+							<rect x="0.0" y="252.0" height="212.0" width="197.0" data-name="Customer"></rect>
+							<path d="M0.0 283.0 L197.0 283.0" fill="none" data-name="Customer"></path>
+						</g>
+						<g transform="translate(0, 252)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Customer">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Customer">
+								<text x="90.5" y="13.5" stroke="none" text-anchor="middle" data-name="Customer">Customer</text>
+								
+							</g>
+						</g>
+						<g transform="translate(0, 283)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Customer">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Customer">
+								<text x="0.0" y="13.5" stroke="none" data-name="Customer">Customer ID: string</text>
+								<text x="0.0" y="28.5" stroke="none" data-name="Customer">Customer Name: string</text>
+								<text x="0.0" y="43.5" stroke="none" data-name="Customer">email: string</text>
+								<text x="0.0" y="58.5" stroke="none" data-name="Customer">phone: string</text>
+								<text x="0.0" y="73.5" stroke="none" data-name="Customer">address: string</text>
+								<text x="0.0" y="88.5" stroke="none" data-name="Customer">Segment: string</text>
+								<text x="0.0" y="103.5" stroke="none" data-name="Customer">Country: string</text>
+								<text x="0.0" y="118.5" stroke="none" data-name="Customer">City: string</text>
+								<text x="0.0" y="133.5" stroke="none" data-name="Customer">State: string</text>
+								<text x="0.0" y="148.5" stroke="none" data-name="Customer">Postal Code: string</text>
+								<text x="0.0" y="163.5" stroke="none" data-name="Customer">Region: string</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Product">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Product">
+							<rect x="237.0" y="289.5" height="137.0" width="206.0" data-name="Product"></rect>
+							<path d="M237.0 320.5 L443.0 320.5" fill="none" data-name="Product"></path>
+						</g>
+						<g transform="translate(237, 289.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Product">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Product">
+								<text x="95.0" y="13.5" stroke="none" text-anchor="middle" data-name="Product">Product</text>
+								
+							</g>
+						</g>
+						<g transform="translate(237, 320.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Product">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Product">
+								<text x="0.0" y="13.5" stroke="none" data-name="Product">Product ID: string</text>
+								<text x="0.0" y="28.5" stroke="none" data-name="Product">Category: string</text>
+								<text x="0.0" y="43.5" stroke="none" data-name="Product">Sub-Category: string</text>
+								<text x="0.0" y="58.5" stroke="none" data-name="Product">Product Name: string</text>
+								<text x="0.0" y="73.5" stroke="none" data-name="Product">State: string</text>
+								<text x="0.0" y="88.5" stroke="none" data-name="Product">Price per product: string</text>
+								
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
