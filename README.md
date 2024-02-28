@@ -1,7 +1,7 @@
 
 # E-commerce Data Processing System
 
-This repository contains a set of Databricks notebooks designed to process and analyze sales data for an e-commerce platform.
+This repository contains a set of Databricks notebooks designed to process and analyze sales data for an e-commerce platform. The system is built to handle large volumes of data, providing valuable insights through data aggregation and analysis.
 
 ## Notebooks Description
 
@@ -35,4 +35,5 @@ The project aims to design and implement a scalable, efficient, and reliable dat
 
 4. **SQL Aggregates**: The system outputs several key aggregations, including profit by year, profit by year plus product category, profit by customer, and profit by customer plus year.
 
-
+## Entity Relationship Diagram
+![System Architecture](./generated.svg)
