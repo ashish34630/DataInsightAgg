@@ -7,8 +7,7 @@ This repository contains a set of Databricks notebooks designed to process and a
 
 - **DataInsightAggregator**: Contains various functions for aggregating sales data, transforming raw data into structured formats suitable for analysis. This notebook serves as the core of the data processing system, implementing the logic for data enrichment and aggregation.
 
-- **Test_DataInsightAggregator**: Includes sample test cases to ensure the correctness of the data aggregations performed by the `DataInsightAggregator`. This notebook follows a test-driven development (TDD) approach, validating the functionality and reliability of the system.
-
+- **Test_DataInsightAggregator**: Includes sample test cases to ensure the correctness of the data aggregations performed by the `DataInsightAggregator`. This notebook follows a test-driven development (TDD) approach, validating the functionality and reliability of the system.By incorporating the %run ./DataInsightAggregator command, we seamlessly link our testing framework with the core application functionality. . Each change to the application is validated against these tests, guaranteeing that our application
 - **InitiateDataPipeline**: Features the main method for running the entire data processing workflow. It orchestrates the execution of data processing tasks, from reading source datasets to outputting aggregated insights.
 
 ## Use Case
