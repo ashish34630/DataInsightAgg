@@ -1,4 +1,5 @@
 # Databricks notebook source
+# Notebook Integration: Executes the DataInsightAggregator notebook, incorporating its data processing functions and tests into this workflow
 # MAGIC %run ./DataInsightAggregator
 
 # COMMAND ----------
