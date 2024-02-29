@@ -82,14 +82,29 @@ def test_aggregated_table_columns() -> None:
 
     assert aggregated_columns == expected_columns, f"Aggregated table columns mismatch. Expected: {expected_columns}, Found: {aggregated_columns}"
 
+def cleanup() -> None:
+    """
+    Cleanup temporary views created during tests.
+    """
+    spark.catalog.dropTempView("raw_orders")
+    spark.catalog.dropTempView("raw_products")
+    spark.catalog.dropTempView("raw_customers")
+    spark.catalog.dropTempView("enriched_orders")
+    spark.catalog.dropTempView("aggregate_table")
+
+
 def run_all_tests() -> None:
     """
-    Execute all test functions.
+    Execute all test functions and cleanup after.
     """
-    test_read_data()
-    test_process_data()
-    test_enriched_data_columns()
-    test_aggregated_table_columns()
+    try:
+        test_read_data()
+        test_process_data()
+        test_enriched_data_columns()
+        test_aggregated_table_columns()
+    finally:
+        cleanup()  # Ensure cleanup happens even if tests fail
+
 
 # Execute all tests
 run_all_tests()
